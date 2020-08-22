@@ -6,4 +6,4 @@ __「Dia 01」- 2020.08.21__  <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; » Introdução ao Model-View-Controller; <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; » Explicação sobre as camadas do Software e o uso da camada auxiliar Data Transfer Object Layer; <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; » Uso e a criação de Bibliotecas(Assemblies), referências e importações; <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; » Preparação inicial do modelo MVC para nosso projeto .Net .
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; » Preparação inicial do modelo MVC para nosso projeto .NET Framework.
