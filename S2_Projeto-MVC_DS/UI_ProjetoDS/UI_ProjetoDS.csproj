@@ -54,6 +54,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -75,6 +78,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL_ProjetoDS\BLL_ProjetoDS.csproj">
+      <Project>{e56c7756-8f43-4ddb-aaba-6f29d9ca3620}</Project>
+      <Name>BLL_ProjetoDS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTOL_ProjetoDS\DTOL_ProjetoDS.csproj">
+      <Project>{1bae2403-78a9-49c3-bf17-9891ecdd720c}</Project>
+      <Name>DTOL_ProjetoDS</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

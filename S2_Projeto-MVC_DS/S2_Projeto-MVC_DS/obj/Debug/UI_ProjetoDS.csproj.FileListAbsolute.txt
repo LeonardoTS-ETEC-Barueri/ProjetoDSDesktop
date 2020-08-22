@@ -1,8 +1,0 @@
-D:\Taka Outerheaven\[17.02.2020] ETEC - ADS\Modulo 02\Desenvolvimento de Sistemas\MeusProjetosDS\S2_ProjetoDS_Desktop\S2_Projeto-MVC_DS\S2_Projeto-MVC_DS\bin\Debug\S2_Projeto-MVC_DS.exe.config
-D:\Taka Outerheaven\[17.02.2020] ETEC - ADS\Modulo 02\Desenvolvimento de Sistemas\MeusProjetosDS\S2_ProjetoDS_Desktop\S2_Projeto-MVC_DS\S2_Projeto-MVC_DS\bin\Debug\S2_Projeto-MVC_DS.exe
-D:\Taka Outerheaven\[17.02.2020] ETEC - ADS\Modulo 02\Desenvolvimento de Sistemas\MeusProjetosDS\S2_ProjetoDS_Desktop\S2_Projeto-MVC_DS\S2_Projeto-MVC_DS\bin\Debug\S2_Projeto-MVC_DS.pdb
-D:\Taka Outerheaven\[17.02.2020] ETEC - ADS\Modulo 02\Desenvolvimento de Sistemas\MeusProjetosDS\S2_ProjetoDS_Desktop\S2_Projeto-MVC_DS\S2_Projeto-MVC_DS\obj\Debug\UI_ProjetoDS.csproj.GenerateResource.cache
-D:\Taka Outerheaven\[17.02.2020] ETEC - ADS\Modulo 02\Desenvolvimento de Sistemas\MeusProjetosDS\S2_ProjetoDS_Desktop\S2_Projeto-MVC_DS\S2_Projeto-MVC_DS\obj\Debug\UI_ProjetoDS.csproj.CoreCompileInputs.cache
-D:\Taka Outerheaven\[17.02.2020] ETEC - ADS\Modulo 02\Desenvolvimento de Sistemas\MeusProjetosDS\S2_ProjetoDS_Desktop\S2_Projeto-MVC_DS\S2_Projeto-MVC_DS\obj\Debug\S2_Projeto-MVC_DS.exe
-D:\Taka Outerheaven\[17.02.2020] ETEC - ADS\Modulo 02\Desenvolvimento de Sistemas\MeusProjetosDS\S2_ProjetoDS_Desktop\S2_Projeto-MVC_DS\S2_Projeto-MVC_DS\obj\Debug\S2_Projeto-MVC_DS.pdb
-D:\Taka Outerheaven\[17.02.2020] ETEC - ADS\Modulo 02\Desenvolvimento de Sistemas\MeusProjetosDS\S2_ProjetoDS_Desktop\S2_Projeto-MVC_DS\S2_Projeto-MVC_DS\obj\Debug\UI_ProjetoDS.Properties.Resources.resources
