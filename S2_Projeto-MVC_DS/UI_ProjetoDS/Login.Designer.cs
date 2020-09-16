@@ -28,33 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblTitulo = new System.Windows.Forms.Label();
+            this.lblTitle = new System.Windows.Forms.Label();
             this.btnLogar = new System.Windows.Forms.Button();
-            this.txbUsuario = new System.Windows.Forms.TextBox();
-            this.lklRecuperacao = new System.Windows.Forms.LinkLabel();
-            this.lblUsuario = new System.Windows.Forms.Label();
-            this.lblSenha = new System.Windows.Forms.Label();
-            this.txbSenha = new System.Windows.Forms.TextBox();
-            this.lklCadastrar = new System.Windows.Forms.LinkLabel();
+            this.txbUsername = new System.Windows.Forms.TextBox();
+            this.lklRecovery = new System.Windows.Forms.LinkLabel();
+            this.lblUsername = new System.Windows.Forms.Label();
+            this.lblPass = new System.Windows.Forms.Label();
+            this.txbPass = new System.Windows.Forms.TextBox();
+            this.lklRegister = new System.Windows.Forms.LinkLabel();
             this.imgLogin = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.imgLogin)).BeginInit();
             this.SuspendLayout();
             // 
-            // lblTitulo
+            // lblTitle
             // 
-            this.lblTitulo.AutoSize = true;
-            this.lblTitulo.Font = new System.Drawing.Font("Calibri", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitulo.Location = new System.Drawing.Point(31, 9);
-            this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(407, 36);
-            this.lblTitulo.TabIndex = 0;
-            this.lblTitulo.Text = "Seja bem vindo ao Sistema ETEC";
+            this.lblTitle.AutoSize = true;
+            this.lblTitle.Font = new System.Drawing.Font("Calibri", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.Location = new System.Drawing.Point(31, 9);
+            this.lblTitle.Name = "lblTitle";
+            this.lblTitle.Size = new System.Drawing.Size(407, 36);
+            this.lblTitle.TabIndex = 0;
+            this.lblTitle.Text = "Seja bem vindo ao Sistema ETEC";
             // 
             // btnLogar
             // 
             this.btnLogar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLogar.FlatAppearance.BorderColor = System.Drawing.Color.LightBlue;
-            this.btnLogar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.CornflowerBlue;
+            this.btnLogar.FlatAppearance.BorderSize = 3;
+            this.btnLogar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightBlue;
             this.btnLogar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DodgerBlue;
             this.btnLogar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogar.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -65,62 +66,65 @@
             this.btnLogar.Text = "ENVIAR";
             this.btnLogar.UseVisualStyleBackColor = true;
             // 
-            // txbUsuario
+            // txbUsername
             // 
-            this.txbUsuario.Location = new System.Drawing.Point(12, 95);
-            this.txbUsuario.Name = "txbUsuario";
-            this.txbUsuario.Size = new System.Drawing.Size(444, 20);
-            this.txbUsuario.TabIndex = 2;
+            this.txbUsername.Location = new System.Drawing.Point(12, 95);
+            this.txbUsername.Name = "txbUsername";
+            this.txbUsername.Size = new System.Drawing.Size(444, 20);
+            this.txbUsername.TabIndex = 2;
             // 
-            // lklRecuperacao
+            // lklRecovery
             // 
-            this.lklRecuperacao.AutoSize = true;
-            this.lklRecuperacao.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lklRecuperacao.Location = new System.Drawing.Point(333, 185);
-            this.lklRecuperacao.Name = "lklRecuperacao";
-            this.lklRecuperacao.Size = new System.Drawing.Size(123, 15);
-            this.lklRecuperacao.TabIndex = 7;
-            this.lklRecuperacao.TabStop = true;
-            this.lklRecuperacao.Text = "Esqueci minha senha";
+            this.lklRecovery.AutoSize = true;
+            this.lklRecovery.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lklRecovery.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
+            this.lklRecovery.Location = new System.Drawing.Point(333, 185);
+            this.lklRecovery.Name = "lklRecovery";
+            this.lklRecovery.Size = new System.Drawing.Size(123, 15);
+            this.lklRecovery.TabIndex = 7;
+            this.lklRecovery.TabStop = true;
+            this.lklRecovery.Text = "Esqueci minha senha";
             // 
-            // lblUsuario
+            // lblUsername
             // 
-            this.lblUsuario.AutoSize = true;
-            this.lblUsuario.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUsuario.Location = new System.Drawing.Point(7, 66);
-            this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Size = new System.Drawing.Size(162, 26);
-            this.lblUsuario.TabIndex = 1;
-            this.lblUsuario.Text = "E-mail ou Usuário";
+            this.lblUsername.AutoSize = true;
+            this.lblUsername.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsername.Location = new System.Drawing.Point(7, 66);
+            this.lblUsername.Name = "lblUsername";
+            this.lblUsername.Size = new System.Drawing.Size(162, 26);
+            this.lblUsername.TabIndex = 1;
+            this.lblUsername.Text = "E-mail ou Usuário";
             // 
-            // lblSenha
+            // lblPass
             // 
-            this.lblSenha.AutoSize = true;
-            this.lblSenha.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSenha.Location = new System.Drawing.Point(7, 133);
-            this.lblSenha.Name = "lblSenha";
-            this.lblSenha.Size = new System.Drawing.Size(64, 26);
-            this.lblSenha.TabIndex = 3;
-            this.lblSenha.Text = "Senha";
+            this.lblPass.AutoSize = true;
+            this.lblPass.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPass.Location = new System.Drawing.Point(7, 133);
+            this.lblPass.Name = "lblPass";
+            this.lblPass.Size = new System.Drawing.Size(64, 26);
+            this.lblPass.TabIndex = 3;
+            this.lblPass.Text = "Senha";
             // 
-            // txbSenha
+            // txbPass
             // 
-            this.txbSenha.Location = new System.Drawing.Point(12, 162);
-            this.txbSenha.Name = "txbSenha";
-            this.txbSenha.PasswordChar = '*';
-            this.txbSenha.Size = new System.Drawing.Size(444, 20);
-            this.txbSenha.TabIndex = 4;
+            this.txbPass.Location = new System.Drawing.Point(12, 162);
+            this.txbPass.Name = "txbPass";
+            this.txbPass.PasswordChar = '*';
+            this.txbPass.Size = new System.Drawing.Size(444, 20);
+            this.txbPass.TabIndex = 4;
             // 
-            // lklCadastrar
+            // lklRegister
             // 
-            this.lklCadastrar.AutoSize = true;
-            this.lklCadastrar.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lklCadastrar.Location = new System.Drawing.Point(9, 246);
-            this.lklCadastrar.Name = "lklCadastrar";
-            this.lklCadastrar.Size = new System.Drawing.Size(117, 15);
-            this.lklCadastrar.TabIndex = 6;
-            this.lklCadastrar.TabStop = true;
-            this.lklCadastrar.Text = "Quero me cadastrar";
+            this.lklRegister.AutoSize = true;
+            this.lklRegister.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lklRegister.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
+            this.lklRegister.Location = new System.Drawing.Point(9, 246);
+            this.lklRegister.Name = "lklRegister";
+            this.lklRegister.Size = new System.Drawing.Size(117, 15);
+            this.lklRegister.TabIndex = 6;
+            this.lklRegister.TabStop = true;
+            this.lklRegister.Text = "Quero me cadastrar";
+            this.lklRegister.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lklRegister_LinkClicked);
             // 
             // imgLogin
             // 
@@ -140,19 +144,19 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(470, 275);
-            this.Controls.Add(this.lklCadastrar);
-            this.Controls.Add(this.txbSenha);
-            this.Controls.Add(this.lblSenha);
-            this.Controls.Add(this.lblUsuario);
-            this.Controls.Add(this.lklRecuperacao);
-            this.Controls.Add(this.txbUsuario);
+            this.Controls.Add(this.lklRegister);
+            this.Controls.Add(this.txbPass);
+            this.Controls.Add(this.lblPass);
+            this.Controls.Add(this.lblUsername);
+            this.Controls.Add(this.lklRecovery);
+            this.Controls.Add(this.txbUsername);
             this.Controls.Add(this.btnLogar);
-            this.Controls.Add(this.lblTitulo);
+            this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.imgLogin);
             this.MaximumSize = new System.Drawing.Size(486, 314);
             this.MinimumSize = new System.Drawing.Size(486, 314);
             this.Name = "Login";
-            this.Text = "Tela de Login Marota";
+            this.Text = "Login - Sistema ETEC";
             ((System.ComponentModel.ISupportInitialize)(this.imgLogin)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -161,14 +165,14 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lblTitulo;
+        private System.Windows.Forms.Label lblTitle;
         private System.Windows.Forms.Button btnLogar;
-        private System.Windows.Forms.TextBox txbUsuario;
-        private System.Windows.Forms.LinkLabel lklRecuperacao;
-        private System.Windows.Forms.Label lblUsuario;
-        private System.Windows.Forms.Label lblSenha;
-        private System.Windows.Forms.TextBox txbSenha;
-        private System.Windows.Forms.LinkLabel lklCadastrar;
+        private System.Windows.Forms.TextBox txbUsername;
+        private System.Windows.Forms.LinkLabel lklRecovery;
+        private System.Windows.Forms.Label lblUsername;
+        private System.Windows.Forms.Label lblPass;
+        private System.Windows.Forms.TextBox txbPass;
+        private System.Windows.Forms.LinkLabel lklRegister;
         private System.Windows.Forms.PictureBox imgLogin;
     }
 }

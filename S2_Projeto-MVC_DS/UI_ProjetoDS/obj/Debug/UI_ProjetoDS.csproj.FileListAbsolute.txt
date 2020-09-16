@@ -13,3 +13,4 @@ D:\Taka Outerheaven\[17.02.2020] ETEC - ADS\Modulo 02\Desenvolvimento de Sistema
 D:\Taka Outerheaven\[17.02.2020] ETEC - ADS\Modulo 02\Desenvolvimento de Sistemas\MeusProjetosDS\S2_ProjetoDS_Desktop\S2_Projeto-MVC_DS\UI_ProjetoDS\obj\Debug\UI_ProjetoDS.csproj.CopyComplete
 D:\Taka Outerheaven\[17.02.2020] ETEC - ADS\Modulo 02\Desenvolvimento de Sistemas\MeusProjetosDS\S2_ProjetoDS_Desktop\S2_Projeto-MVC_DS\UI_ProjetoDS\obj\Debug\UI_ProjetoDS.exe
 D:\Taka Outerheaven\[17.02.2020] ETEC - ADS\Modulo 02\Desenvolvimento de Sistemas\MeusProjetosDS\S2_ProjetoDS_Desktop\S2_Projeto-MVC_DS\UI_ProjetoDS\obj\Debug\UI_ProjetoDS.pdb
+D:\Taka Outerheaven\[17.02.2020] ETEC - ADS\Modulo 02\Desenvolvimento de Sistemas\MeusProjetosDS\S2_ProjetoDS_Desktop\S2_Projeto-MVC_DS\UI_ProjetoDS\obj\Debug\UI_ProjetoDS.Cadastro.resources
