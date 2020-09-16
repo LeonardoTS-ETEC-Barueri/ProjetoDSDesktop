@@ -19,5 +19,12 @@ namespace UI_ProjetoDS
             InitializeComponent();
         }
 
+        private void lklRegister_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.Hide();    // Oculta o form atual (Login.cs)
+            Cadastro telaCadastro = new Cadastro(); // Instanciamento da tela (Cadastro.cs)
+            telaCadastro.ShowDialog();  // Exibe a tela (Cadastro.cs) e até que ela seja fechada, bloqueia manipulação na tela (Login.cs)
+            this.Show();    // Volta a exibição do form atual.
+        }
     }
 }
