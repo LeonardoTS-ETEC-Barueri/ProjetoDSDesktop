@@ -9,5 +9,9 @@ __「Dia 01」- 2020.08.21__  <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; » Preparação inicial do modelo MVC para nosso projeto .NET Framework.<br>
 
 __「Dia 02」- 2020.08.28__  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; » Construmos a primeira tela da Camada VIEW (UI Layer); <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; » Construímos a primeira tela da Camada VIEW (UI Layer); <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; » Aprendemos sobre vários elementos e suas propriedades; <br>
+
+__「Dia 03」- 2020.09.11__  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; » Revisamos os conceitos de MVC e POO em C#; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; » Criamos uma nova tela na camada VIEW; <br>
