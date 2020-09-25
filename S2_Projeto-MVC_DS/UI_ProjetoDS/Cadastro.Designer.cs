@@ -36,11 +36,13 @@
             this.txbCPF = new System.Windows.Forms.TextBox();
             this.lblUsername = new System.Windows.Forms.Label();
             this.txbUsername = new System.Windows.Forms.TextBox();
-            this.lblSenha = new System.Windows.Forms.Label();
+            this.lblPass = new System.Windows.Forms.Label();
             this.txbPass = new System.Windows.Forms.TextBox();
             this.btnRegister = new System.Windows.Forms.Button();
             this.btnReset = new System.Windows.Forms.Button();
             this.lklReturn = new System.Windows.Forms.LinkLabel();
+            this.lblPassConfirm = new System.Windows.Forms.Label();
+            this.txbPassConfirm = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblDadosPessoais
@@ -115,15 +117,15 @@
             this.txbUsername.Size = new System.Drawing.Size(279, 20);
             this.txbUsername.TabIndex = 8;
             // 
-            // lblSenha
+            // lblPass
             // 
-            this.lblSenha.AutoSize = true;
-            this.lblSenha.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSenha.Location = new System.Drawing.Point(349, 126);
-            this.lblSenha.Name = "lblSenha";
-            this.lblSenha.Size = new System.Drawing.Size(166, 26);
-            this.lblSenha.TabIndex = 9;
-            this.lblSenha.Text = "Digite a sua senha";
+            this.lblPass.AutoSize = true;
+            this.lblPass.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPass.Location = new System.Drawing.Point(349, 126);
+            this.lblPass.Name = "lblPass";
+            this.lblPass.Size = new System.Drawing.Size(151, 26);
+            this.lblPass.TabIndex = 9;
+            this.lblPass.Text = "Digite sua senha";
             // 
             // txbPass
             // 
@@ -142,10 +144,10 @@
             this.btnRegister.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleGreen;
             this.btnRegister.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRegister.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegister.Location = new System.Drawing.Point(164, 211);
+            this.btnRegister.Location = new System.Drawing.Point(164, 270);
             this.btnRegister.Name = "btnRegister";
             this.btnRegister.Size = new System.Drawing.Size(133, 54);
-            this.btnRegister.TabIndex = 11;
+            this.btnRegister.TabIndex = 13;
             this.btnRegister.Text = "CADASTRAR";
             this.btnRegister.UseVisualStyleBackColor = true;
             // 
@@ -158,10 +160,10 @@
             this.btnReset.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DodgerBlue;
             this.btnReset.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReset.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReset.Location = new System.Drawing.Point(354, 211);
+            this.btnReset.Location = new System.Drawing.Point(354, 270);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(133, 54);
-            this.btnReset.TabIndex = 12;
+            this.btnReset.TabIndex = 14;
             this.btnReset.Text = "LIMPAR";
             this.btnReset.UseVisualStyleBackColor = true;
             // 
@@ -169,24 +171,44 @@
             // 
             this.lklReturn.AutoSize = true;
             this.lklReturn.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
-            this.lklReturn.Location = new System.Drawing.Point(453, 268);
+            this.lklReturn.Location = new System.Drawing.Point(453, 327);
             this.lklReturn.Name = "lklReturn";
             this.lklReturn.Size = new System.Drawing.Size(34, 13);
-            this.lklReturn.TabIndex = 13;
+            this.lklReturn.TabIndex = 15;
             this.lklReturn.TabStop = true;
             this.lklReturn.Text = "Voltar";
             this.lklReturn.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lklReturn_LinkClicked);
+            // 
+            // lblPassConfirm
+            // 
+            this.lblPassConfirm.AutoSize = true;
+            this.lblPassConfirm.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPassConfirm.Location = new System.Drawing.Point(349, 188);
+            this.lblPassConfirm.Name = "lblPassConfirm";
+            this.lblPassConfirm.Size = new System.Drawing.Size(179, 26);
+            this.lblPassConfirm.TabIndex = 11;
+            this.lblPassConfirm.Text = "Confirme sua senha";
+            // 
+            // txbPassConfirm
+            // 
+            this.txbPassConfirm.Location = new System.Drawing.Point(354, 217);
+            this.txbPassConfirm.Name = "txbPassConfirm";
+            this.txbPassConfirm.PasswordChar = '*';
+            this.txbPassConfirm.Size = new System.Drawing.Size(279, 20);
+            this.txbPassConfirm.TabIndex = 12;
             // 
             // Cadastro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(656, 290);
+            this.ClientSize = new System.Drawing.Size(656, 354);
+            this.Controls.Add(this.txbPassConfirm);
+            this.Controls.Add(this.lblPassConfirm);
             this.Controls.Add(this.lklReturn);
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.btnRegister);
             this.Controls.Add(this.txbPass);
-            this.Controls.Add(this.lblSenha);
+            this.Controls.Add(this.lblPass);
             this.Controls.Add(this.txbUsername);
             this.Controls.Add(this.lblUsername);
             this.Controls.Add(this.txbCPF);
@@ -195,6 +217,8 @@
             this.Controls.Add(this.lblName);
             this.Controls.Add(this.lblDadosLogin);
             this.Controls.Add(this.lblDadosPessoais);
+            this.MaximumSize = new System.Drawing.Size(672, 393);
+            this.MinimumSize = new System.Drawing.Size(672, 393);
             this.Name = "Cadastro";
             this.Text = "Cadastre-se";
             this.ResumeLayout(false);
@@ -212,10 +236,12 @@
         private System.Windows.Forms.TextBox txbCPF;
         private System.Windows.Forms.Label lblUsername;
         private System.Windows.Forms.TextBox txbUsername;
-        private System.Windows.Forms.Label lblSenha;
+        private System.Windows.Forms.Label lblPass;
         private System.Windows.Forms.TextBox txbPass;
         private System.Windows.Forms.Button btnRegister;
         private System.Windows.Forms.Button btnReset;
         private System.Windows.Forms.LinkLabel lklReturn;
+        private System.Windows.Forms.Label lblPassConfirm;
+        private System.Windows.Forms.TextBox txbPassConfirm;
     }
 }
