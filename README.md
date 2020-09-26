@@ -15,3 +15,8 @@ __「Dia 02」- 2020.08.28__  <br>
 __「Dia 03」- 2020.09.11__  <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; » Revisamos os conceitos de MVC e POO em C#; <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; » Criamos uma nova tela na camada VIEW; <br>
+
+__「Dia 04」- 2020.09.25__  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; » Fizemos a transferência dos dados de uma VIEW para um Objeto da camada DTO; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; » Utilizamos a camada Controller para verificar e validar os dados contidos no Objeto; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; » Exibimos os dados pós-tratamento na camada VIEW; <br>
