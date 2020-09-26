@@ -65,6 +65,7 @@
             this.btnLogar.TabIndex = 5;
             this.btnLogar.Text = "ENVIAR";
             this.btnLogar.UseVisualStyleBackColor = true;
+            this.btnLogar.Click += new System.EventHandler(this.btnLogar_Click);
             // 
             // txbUsername
             // 
