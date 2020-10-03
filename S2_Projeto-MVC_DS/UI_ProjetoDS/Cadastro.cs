@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BLL_ProjetoDS;
+using DTOL_ProjetoDS;
 
 namespace UI_ProjetoDS
 {
@@ -21,5 +23,6 @@ namespace UI_ProjetoDS
         {
             this.Close();
         }
+
     }
 }

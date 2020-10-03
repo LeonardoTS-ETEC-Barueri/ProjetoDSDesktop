@@ -63,6 +63,16 @@ namespace UI_ProjetoDS.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap lupa50px {
+            get {
+                object obj = ResourceManager.GetObject("lupa50px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap segurancaWeb50px {
             get {
                 object obj = ResourceManager.GetObject("segurancaWeb50px", resourceCulture);
