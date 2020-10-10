@@ -9,7 +9,7 @@ using MySql.Data.MySqlClient;
 
 namespace DAL_ProjetoDS
 {
-    public class Conexao
+    public class DAL_Conexao
     {
         public string myConnection = "server = localhost; user id = root; database=ds_db_projeto_mvc";
 
