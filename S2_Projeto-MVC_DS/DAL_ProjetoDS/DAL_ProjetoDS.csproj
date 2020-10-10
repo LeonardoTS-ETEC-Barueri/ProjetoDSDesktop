@@ -43,7 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
-    <Compile Include="Conexao.cs" />
+    <Compile Include="DAL_Conexao.cs" />
     <Compile Include="DAL_Login.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

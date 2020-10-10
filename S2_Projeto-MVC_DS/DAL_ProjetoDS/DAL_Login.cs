@@ -15,7 +15,7 @@ namespace DAL_ProjetoDS
 
         public static string VerificarLogin(DTO_Login obj_dtoLogin)
         {
-            Conexao myDBConnection = new Conexao();
+            DAL_Conexao myDBConnection = new DAL_Conexao();
             // ↑ Cria uma instância da conexão com a DB.
 
             try
@@ -27,7 +27,7 @@ namespace DAL_ProjetoDS
                 // ↑ Cria a string com a consulta SQL note o fechamento da consulta com ; e o fechamento da string com ;
 
                 MySqlCommand cmd = new MySqlCommand(script, myDBConnection.Conectar());
-                // ↑ Cria o comando para executar a instrução, passando a consulta de 'script' e a database declarada na classe 'Conexao' onde essa consulta será executada.
+                // ↑ Cria o comando para executar a instrução, passando a consulta de 'script' e a database declarada na classe 'DAL_Conexao' onde essa consulta será executada.
 
                 cmd.Parameters.AddWithValue("@login", obj_dtoLogin.Usuario);
                 cmd.Parameters.AddWithValue("@password", obj_dtoLogin.Password);

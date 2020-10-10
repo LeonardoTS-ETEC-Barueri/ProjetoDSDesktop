@@ -20,3 +20,8 @@ __「Dia 04」- 2020.09.25__  <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; » Fizemos a transferência dos dados de uma VIEW para um Objeto da camada DTO; <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; » Utilizamos a camada Controller para verificar e validar os dados contidos no Objeto; <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; » Exibimos os dados pós-tratamento na camada VIEW; <br>
+
+__「Dia 05」- 2020.10.10__  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; » Utilizamos a camada MODEL para nos conectar a base de Dados e verificar dados de Login; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; » Enviamos o resultado do acesso à base de dados na verificação do Login para retorno na VIEW por meio do CONTROLLER; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; » Exibimos se o usuário teve sucesso em seu Login, ou não foi encontrado na base de dados na VIEW; <br>
