@@ -16,8 +16,10 @@ namespace DTOL_ProjetoDS
 
         // O C# possui as [ Propriedades Automáticas ] - Que são a geração automática de atributos, contidas em um método Get/Set.
 
+        public int idUsuario { get; set; }
         public string Usuario { get; set; }
         public string Password { get; set; }
+        public string tipo { get; set; }
 
     }
 }
