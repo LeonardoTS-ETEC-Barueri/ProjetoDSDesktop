@@ -26,7 +26,7 @@ namespace BLL_ProjetoDS
             {
                 //return ("Sucesso!\nSeja bem-vindo " + obj_dtoLogin.Usuario + ".");
 
-                return DAL_Login.VerificarLogin(obj_dtoLogin);
+                return DAL_Login.EfetuarLogin(obj_dtoLogin);
                 // ↑ Retornará a 'string' retornada pelo método 'VerificarLogin()' para ser exibida na VIEW 'UI_ProjetoDS'.
                 //   Se 'DAL_Login' não for uma classe estática, teremos que instânciá-la aqui [?].
             }
