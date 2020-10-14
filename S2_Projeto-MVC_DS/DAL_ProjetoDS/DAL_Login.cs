@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data;
-using MySql.Data;
 using MySql.Data.MySqlClient;
 using DTOL_ProjetoDS;
 
@@ -13,7 +12,7 @@ namespace DAL_ProjetoDS
     public static class DAL_Login
     {
 
-        public static string VerificarLogin(DTO_Login obj_dtoLogin)
+        public static string EfetuarLogin(DTO_Login obj_dtoLogin)
         {
             DAL_Conexao myDBConnection = new DAL_Conexao();
             // ↑ Cria uma instância da conexão com a DB.
