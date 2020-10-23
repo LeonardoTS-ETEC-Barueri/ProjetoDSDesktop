@@ -45,3 +45,12 @@ SELECT tu.nome, tu.tipo, te.cep, te.logradouro
 FROM tbl_endereco te
 INNER JOIN tbl_usuario tu
 ON te.idUsuario = tu.idUsuario;
+
+SELECT 	tu.*,
+		te.*
+FROM tbl_endereco te
+INNER JOIN tbl_usuario tu
+ON te.idUsuario = tu.idUsuario
+WHERE tu.senha = 'adm123' AND tu.userName = 'Admin';
+
+

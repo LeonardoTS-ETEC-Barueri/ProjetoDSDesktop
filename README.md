@@ -25,3 +25,6 @@ __「Dia 05」- 2020.10.10__  <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; » Utilizamos a camada MODEL para nos conectar a base de Dados e verificar dados de Login; <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; » Enviamos o resultado do acesso à base de dados na verificação do Login para retorno na VIEW por meio do CONTROLLER; <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; » Exibimos se o usuário teve sucesso em seu Login, ou não foi encontrado na base de dados na VIEW; <br>
+
+__「Dia 06」- 2020.10.23__  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; » Criação do Data Transfer Object "DTO_Usuario" e Revisão da mensagem retornada pelo MODEL de Login; <br>

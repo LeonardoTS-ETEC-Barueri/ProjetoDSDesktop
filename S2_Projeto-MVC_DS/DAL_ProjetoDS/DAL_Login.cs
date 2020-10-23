@@ -19,10 +19,13 @@ namespace DAL_ProjetoDS
 
             try
             {
-                
 
-                string script = "SELECT * FROM tbl_usuario WHERE (userName = @login OR email = @login) " +
-                    "AND senha = @password; ";
+
+                string script = "SELECT tu.*, te.* " +
+                    "FROM tbl_endereco te " +
+                    "INNER JOIN tbl_usuario tu " +
+                    "   ON te.idUsuario = tu.idUsuario " +
+                    "WHERE (tu.userName = @login OR tu.email = @login) AND tu.senha = @password;";
                 // ↑ Cria a string com a consulta SQL note o fechamento da consulta com ; e o fechamento da string com ;
 
                 MySqlCommand cmd = new MySqlCommand(script, myDBConnection.Conectar());
@@ -40,17 +43,26 @@ namespace DAL_ProjetoDS
                 {
                     if (dadosRetornados.HasRows)
                     {
-                        /*
-                         DTO_Usuario user = new DTO_Usuario();
-                         user.IdLogin = dados["idLogin"].ToString();
-                         user.Email = dados["email"].ToString();
-                         user.NickName = dados["userName"].ToString();
-                         user.Senha = dados["senha"].ToString();
-                         user.Ativo = dados["ativo"].ToString();
-                         return user;
-                         */
+                        
+                        DTO_Usuario obj_dtoUsuario = new DTO_Usuario();
+                        obj_dtoUsuario.idUsuario = int.Parse(dadosRetornados["idUsuario"].ToString());
+                        obj_dtoUsuario.nomeCompleto = dadosRetornados["nome"].ToString();
+                        obj_dtoUsuario.userName = dadosRetornados["userName"].ToString();
+                        obj_dtoUsuario.userPass = dadosRetornados["senha"].ToString();
+                        obj_dtoUsuario.tipoUsuario = dadosRetornados["tipo"].ToString();
+                        obj_dtoUsuario.ativo = dadosRetornados["ativo"].ToString();
+                        obj_dtoUsuario.cpf = dadosRetornados["cpf"].ToString();
+                        obj_dtoUsuario.rg = dadosRetornados["rg"].ToString();
+                        obj_dtoUsuario.cep = dadosRetornados["cep"].ToString();
+                        obj_dtoUsuario.logradouro = dadosRetornados["logradouro"].ToString();
+                        obj_dtoUsuario.numero = dadosRetornados["numero"].ToString();
+                        obj_dtoUsuario.bairro = dadosRetornados["bairro"].ToString();
+                        obj_dtoUsuario.cidade = dadosRetornados["cidade"].ToString();
+                        obj_dtoUsuario.estado = dadosRetornados["estado"].ToString();
+                        //return obj_dtoUsuario.ToString();
 
-                        return "Sucesso, usuário encontrado!";
+
+                        return "Usuário [" + obj_dtoUsuario.userName +"] encontrado!\n[" + obj_dtoUsuario.tipoUsuario + "] logado com sucesso!";
                     }
                 }
 
